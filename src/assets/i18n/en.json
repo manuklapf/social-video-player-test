@@ -1,0 +1,11 @@
+{
+  "MODAL_COMMENT_CONFIRMATION_TITLE": "Show your team the exact spot! Add a drawing to your comment",
+  "MODAL_COMMENT_CONFIRMATION_BUTTON_DRAW": "Add drawing",
+  "MODAL_COMMENT_CONFIRMATION_BUTTON_COMMENT": "Post comment",
+
+  "MODAL_DRAW_TUTORIAL_TITLE": "Let the magic begin! Use your finger like a pen and draw directly into the video!",
+  "MODAL_DRAW_TUTORIAL_BUTTON": "Got it!",
+
+  "YES": "YES",
+  "NO": "NO"
+}
