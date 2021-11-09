@@ -1,4 +1,4 @@
-import dynamicImportVars from '@rollup/plugin-dynamic-import-vars'
+import dynamicImportVariables from "@rollup/plugin-dynamic-import-vars";
 import vue from '@vitejs/plugin-vue'
 
 const path = require('path')
@@ -17,14 +17,13 @@ module.exports = {
             name: 'SocialVideoPlayer'
         },
         rollupOptions: {
-            plugins: [dynamicImportVars()],
-            external: ['vue', 'axios'],
+            plugins: [dynamicImportVariables()],
+            external: ['vue'],
             output: [
                 {
                     format: 'umd',
                     globals: {
                         vue: 'Vue',
-                        axios: 'Axios'
                     }
                 }
             ]
